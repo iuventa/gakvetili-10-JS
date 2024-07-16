@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.street{
+    width: 1200px;
+    margin: 200px auto;
+    position: relative;
+}
+.street img{
+    width: 100%;
+}
+
+.red{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: grey;
+    /* box-shadow: 0 0 5px 5px red; */
+    position: absolute;
+    top: 52px;
+    left: 822px;
+}
+.yellow{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 83px;
+    left: 823px;
+}
+.green{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 112px;
+    left: 824px;
+}
+.redback{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 64px;
+    left: 426px;
+}
+.yellowback{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 85px;
+    left: 427px;
+}
+.greenback{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 106px;
+    left: 427px;
+}
+.gaanate{
+    width: 200px;
+    background-color: grey;
+    border: 1px solid darkslategray;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
